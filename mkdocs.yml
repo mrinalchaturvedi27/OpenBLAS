@@ -49,6 +49,7 @@ nav:
   - install.md
   - user_manual.md
   - extensions.md
+  - linalg_algorithms.md
   - developers.md
   - build_system.md
   - runtime_variables.md
