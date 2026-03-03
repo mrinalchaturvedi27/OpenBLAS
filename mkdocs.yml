@@ -56,6 +56,8 @@ nav:
   - ci.md
   - about.md
   - faq.md
+  - architecture.md
+  - dependency_map.md
 
 extra:
   social:
