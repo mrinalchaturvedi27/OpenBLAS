@@ -51,6 +51,7 @@ nav:
   - extensions.md
   - linalg_algorithms.md
   - developers.md
+  - simd_kernels.md
   - build_system.md
   - runtime_variables.md
   - distributing.md
