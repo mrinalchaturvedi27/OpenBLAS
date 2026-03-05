@@ -45,7 +45,7 @@ kernel/
 | **ARM64** | NEON (Advanced SIMD), SVE, SME | `sgemm_kernel_sve_v2x8.S` (SVE)<br>`dgemm_kernel_8x4_thunderx2t99.S` (NEON) |
 | **ARM** | NEON, VFPv3, VFPv2 | `sgemm_kernel_4x4_vfpv3.S` |
 | **POWER** | VSX, VSX2, VSX3 | `dgemm_kernel_power10.S` |
-| **RISC-V** | RVV (RISC-V Vector 0.7.1, 1.0) | `sgemm_kernel_rvv_v1.c` |
+| **RISC-V** | RVV (RISC-V Vector 1.0, legacy 0.7.1) | `gemmkernel_rvv_v1x8.c` (v1.0)<br>`axpy_rvv.c` |
 | **LoongArch64** | LSX, LASX | Files with `_lsx` or `_lasx` suffixes |
 | **MIPS** | MSA (MIPS SIMD Architecture) | Files with `_msa` suffix |
 
@@ -207,7 +207,7 @@ Each has precision variants (S/D/C/Z) and sometimes transpose/operation variants
 
 - **Architecture overview:** See `docs/architecture.md` for the full three-layer architecture
 - **Developer guide:** See `docs/developers.md` for kernel development details
-- **Goto paper:** [Anatomy of High-Performance Matrix Multiplication](http://www.cs.utexas.edu/~flame/web/FLAMEPublications.html) - describes the algorithm that GEMM kernels implement
+- **Goto paper:** Goto & van de Geijn (2008). "Anatomy of High-Performance Matrix Multiplication". ACM TOMS 34(3). Available from [FLAME publications](http://www.cs.utexas.edu/~flame/web/FLAMEPublications.html) - search for the title to find the PDF
 
 ## Summary
 
