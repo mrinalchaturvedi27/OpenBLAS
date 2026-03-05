@@ -1,5 +1,8 @@
 # Developer manual
 
+!!! tip "Looking for SIMD kernel information?"
+    For detailed information about where SIMD kernels are written and how they're organized, see the [SIMD Kernels](simd_kernels.md) documentation.
+
 ## Source code layout
 
 ```

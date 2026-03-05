@@ -176,6 +176,9 @@ Infrastructure components:
 
 ### Kernel Layer (`kernel/<arch>/`)
 
+!!! info "Detailed SIMD kernel documentation"
+    For comprehensive information about SIMD kernels, file naming conventions, and examples, see [SIMD Kernels](simd_kernels.md).
+
 Each architecture directory contains:
 
 - **`KERNEL.<CPU>`** — a list of `make` variable assignments that map abstract
